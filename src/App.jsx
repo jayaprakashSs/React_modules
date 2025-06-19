@@ -9,6 +9,13 @@ import LoadingPage from './modules/Loader/LoadingPage';
 import Loader from './modules/Loader/MultiLoader';
 import MobileOtpLogin from './modules/Login/MobileOtpLogin';
 import Sidebar from './modules/Sidebar/Sidebar';
+import ChartsModule from './modules/Charts/ChartsModule';
+import ActivityLog from './modules/ActivityLog/ActivityLog ';
+import Navbar from './modules/Navbar/GoogleStyleNavbar';
+import LogInOTPPage from './modules/Login/LogInOTPPage';
+import DashboardAnalytics from './modules/Workspace/DashboardAnalytics';
+import Modal from './modules/Model/Modal';
+import { LogIn } from 'lucide-react';
 
 const App = () => {
   return (
@@ -22,6 +29,10 @@ const App = () => {
       <Example_Toast />
       <MobileOtpLogin />
       <Sidebar />
+      <ChartsModule />
+      <ActivityLog />
+      <DashboardAnalytics/>
+      <LogInOTPPage />
     </div>
   );
 };

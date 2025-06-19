@@ -71,43 +71,6 @@ const Sidebar = () => {
       ],
     },
     {
-      label: "Users",
-      icon: Users,
-      children: [
-        {
-          label: "Add User",
-          icon: UserPlus,
-          children: [
-            { label: "Mobile User", icon: Smartphone, link: "#" },
-            { label: "Web User", icon: Monitor, link: "#" },
-          ],
-        },
-        {
-          label: "User List",
-          icon: UserCircle,
-          link: "#",
-        },
-      ],
-    },{
-      label: "Users",
-      icon: Users,
-      children: [
-        {
-          label: "Add User",
-          icon: UserPlus,
-          children: [
-            { label: "Mobile User", icon: Smartphone, link: "#" },
-            { label: "Web User", icon: Monitor, link: "#" },
-          ],
-        },
-        {
-          label: "User List",
-          icon: UserCircle,
-          link: "#",
-        },
-      ],
-    },
-    {
       label: "Settings",
       icon: Settings,
       link: "#",

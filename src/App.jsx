@@ -11,11 +11,20 @@ import MobileOtpLogin from './modules/Login/MobileOtpLogin';
 import Sidebar from './modules/Sidebar/Sidebar';
 import ChartsModule from './modules/Charts/ChartsModule';
 import ActivityLog from './modules/ActivityLog/ActivityLog ';
-import Navbar from './modules/Navbar/GoogleStyleNavbar';
-import LogInOTPPage from './modules/Login/LogInOTPPage';
 import DashboardAnalytics from './modules/Workspace/DashboardAnalytics';
 import Modal from './modules/Model/Modal';
 import { LogIn } from 'lucide-react';
+import WorkspaceHeader from './modules/Workspace/WorkspaceHeader';
+import Workspace from './modules/Workspace/Workspace';
+import Anti from './modules/anti/anti';
+import MyPage from './modules/anti/MyPage';
+import ATable from './modules/anti/ATable';
+import PaginationPage from './modules/Pagination/PaginationPage';
+import SkeletonLoaderPage from './modules/SkeletonLoader/SkeletonLoaderPage';
+import StepperPage from './modules/Stepper/StepperPage';
+import AuditTrailPage from './modules/AuditTrail/AuditTrailPage';
+import HeatMapComponent from './HeatMap';
+import Login from './pages/Login';
 
 const App = () => {
   return (
@@ -30,9 +39,18 @@ const App = () => {
       <MobileOtpLogin />
       <Sidebar />
       <ChartsModule />
+      {/* <Navbar /> */}
       <ActivityLog />
-      <DashboardAnalytics/>
-      <LogInOTPPage />
+      {/* <DashboardAnalytics/> */}
+      {/* <Workspace/> */}
+      <Anti />
+      <ATable />
+      <SkeletonLoaderPage />
+      <PaginationPage />
+      <StepperPage/>
+      <AuditTrailPage/>
+      <HeatMapComponent />
+      <Login />
     </div>
   );
 };

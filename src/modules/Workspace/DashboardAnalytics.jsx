@@ -459,12 +459,6 @@ const DashboardAnalytics = () => {
           <TopProducts products={analyticsData.topProducts} />
         </div>
       </div>
-
-      {/* Recent Activity */}
-      <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
-        <RecentActivity activities={analyticsData.recentActivity} />
-      </div>
-
       {/* Footer Summary */}
       <div className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 border border-gray-200 dark:border-gray-600">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
@@ -497,6 +491,12 @@ const DashboardAnalytics = () => {
           </div>
         </div>
       </div>
+      {/* Recent Activity */}
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-6">
+        <RecentActivity activities={analyticsData.recentActivity} />
+      </div>
+
+
     </div>
   );
 };

@@ -86,11 +86,6 @@ const Workspace = () => {
       />
 
       {/* Desktop Sidebar */}
-      <div
-        className={`hidden lg:block ${sidebarOpen ? "w-64" : "w-16"} transition-all duration-300`}
-      >
-        <Sidebar />
-      </div>
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col overflow-hidden">
